@@ -14,7 +14,29 @@ layout: default
 - Visualizing single & dual variables [R library: ggplot2]
 - Visualizing categorical data [R library: vcd]
 
-## 3. Visualizing Multiple Variables
+## 3. [Portrait - Distribution Representation](/portrait)
+About: What does the portrait of a variable look like?
+Visualisations
+* Categorical - Bar, Column, Stacked, Polar
+* Continuous - Histogram, Frequency Polygon
+Tips & Tricks: Coordinate changes, Scale transformation, Binwidth
+
+## 4. Comparision - Comparative Representation
+About: How does one variable compare to another?
+Visualisations
+* Categorical vs. Categorical - Stacked, Position, Mosaic
+* Categorical vs. Continuous - Histogram with colour, Frequency Polygon, Box Plot, Points
+* Continuous vs. Continuous - Scatterplot
+Interaction - Navigation, Annotation
+Tips & Tricks - Position, Alpha, Jitter, Binning
+
+## 5. Multiple Variables
+Visualisations
+* Multiple Aesthetics - Colour, Shape, Size
+* Facetting - Grid, Wrap
+* Matrix
+* Parallel Coordinates
+* Projections & Tours
 - Using aesthetics and facets for more than two variables [R library: ggplot2]
 - Using matrix view, parallel coordinates for more than two variables [R library: GGally]
 
