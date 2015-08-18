@@ -1,0 +1,11 @@
+name: "Data Viz"
+description: "Data Visualization | With Application in R"
+
+baseurl: /dataviz
+
+permalink: pretty
+markdown: kramdown
+highlighter: pygments
+
+kramdown:
+  input: GFM
