@@ -21,7 +21,7 @@ For a categorical variable, the value of the variable represents which category 
 ### Bar Chart
 
 
-![]({{ site.url }}/assets/img/cutBar.png)
+![]({{ site.baseurl }}/assets/img/cutBar.png)
 
 ### Column Chart
 
@@ -37,7 +37,7 @@ ggplot(diamonds) + aes(cut) + geom_bar() + coord_flip()
 ggplot(diamonds) + aes(cut, fill = cut) + geom_bar(width = 1) + coord_polar()
 ```
 
-![]({{ site.url }}/assets/img/cutCoxcomb.png)
+![]({{ site.baseurl }}/assets/img/cutCoxcomb.png)
 
 
 ### Stacked Chart
@@ -46,7 +46,7 @@ ggplot(diamonds) + aes(cut, fill = cut) + geom_bar(width = 1) + coord_polar()
 ggplot(diamonds) + aes(x = "", fill = cut) + geom_bar(width = 0.5)
 ```
 
-![]({{ site.url }}/assets/img/cutStacked.png)
+![]({{ site.baseurl }}/assets/img/cutStacked.png)
 
 ### Pie Chart
 
@@ -54,7 +54,7 @@ ggplot(diamonds) + aes(x = "", fill = cut) + geom_bar(width = 0.5)
 ggplot(diamonds) + aes(x = "", fill = cut) + geom_bar(width = 1) + coord_polar(theta = "y")
 ```
 
-![]({{ site.url }}/assets/img/cutPie.png)
+![]({{ site.baseurl }}/assets/img/cutPie.png)
 
 
 ## Quantitative Variable
@@ -71,7 +71,7 @@ ggplot(diamonds) + aes(x = "", fill = cut) + geom_bar(width = 1) + coord_polar(t
 ggplot(diamonds) + aes(price) + geom_histogram(binwidth = 50)
 ```
 
-![]({{ site.url }}/assets/img/priceHist.png)
+![]({{ site.baseurl }}/assets/img/priceHist.png)
 
 
 ### Frequency Polygon
@@ -80,7 +80,7 @@ ggplot(diamonds) + aes(price) + geom_histogram(binwidth = 50)
 ggplot(diamonds) + aes(price) + geom_freqpoly(binwidth = 50)
 ```
 
-![]({{ site.url }}/assets/img/priceFreqpoly.png)
+![]({{ site.baseurl }}/assets/img/priceFreqpoly.png)
 
 ### Density Plot
 
@@ -88,4 +88,4 @@ ggplot(diamonds) + aes(price) + geom_freqpoly(binwidth = 50)
 ggplot(diamonds) + aes(price) + geom_density(binwidth = 50)
 ```
 
-![]({{ site.url }}/assets/img/priceDensity.png)
+![]({{ site.baseurl }}/assets/img/priceDensity.png)
