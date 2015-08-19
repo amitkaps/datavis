@@ -14,7 +14,7 @@ layout: default
 - Visualizing single & dual variables [R library: ggplot2]
 - Visualizing categorical data [R library: vcd]
 
-## 3. [Distribution Representation](/distribution)
+## 3. [Distribution Representation]({{ site.baseurl }}/distribution)
 About: What does the portrait of a variable look like?
 Visualisations
 * Categorical - Bar, Column, Stacked, Polar
