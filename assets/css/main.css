@@ -60,6 +60,14 @@ p {
   vertical-align: baseline;
 }
 
+p, footer, pre, code {
+  width: 60%;
+}
+
+@media screen and (max-width: 760px) {
+  p, pre, code { width: 90%; }
+}
+
 article {
   position: relative;
   padding: 5rem 0rem;
@@ -71,3 +79,45 @@ a {
   border-bottom: 1px solid #777;
   padding-bottom: 1px;
 }
+
+img {
+  max-width: 100%;
+}
+
+pre {
+  float: right;
+  clear: right;
+  margin-left: -60%;
+  width: 30%;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: baseline;
+  position: relative;
+  white-space: pre-wrap;
+}
+
+code {
+  font-famly: Consolas, Menlo, Courier, Courier New, monospace;
+  font-size: 1 rem;
+  line-height: 1.6;
+/*  padding: 0 0 0 2em;
+  overflow-x: scroll;
+*/
+}
+
+
+table { width: 60%;
+        text-align: right;
+        font-size: 1.2rem;
+        line-height: 1.4;
+        margin: 1.4rem 1%;
+        border-collapse: separate;
+        border-spacing: 0 5px;
+       }
+
+thead th { border-bottom: 1px solid #AAAAAA;
+           font-weight: 400;
+           border-collapse: separate;
+           border-spacing: 5px 5px; }
+
+td.text { text-align: left; }
