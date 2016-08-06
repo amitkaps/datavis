@@ -1,7 +1,10 @@
 name: "Data-Vis"
 description: "Data Visualisation"
 
-baseurl: /dataviz
 port: 4003
 
 permalink: pretty
+
+collections:
+  chapters:
+    output: true
