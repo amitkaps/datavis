@@ -1,11 +1,7 @@
-name: "Data Viz"
-description: "Data Visualization | With Application in R"
+name: "Data-Vis"
+description: "Data Visualisation"
 
 baseurl: /dataviz
+port: 4003
 
 permalink: pretty
-markdown: kramdown
-highlighter: pygments
-
-kramdown:
-  input: GFM

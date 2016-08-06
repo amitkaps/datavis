@@ -29,7 +29,7 @@ For a categorical variable, the value of the variable represents which category 
 ggplot(diamonds) + aes(cut) + geom_bar() + coord_flip()
 ```
 
-![]({{ site.url }}/assets/img/cutColumn.png)
+![]({{ site.baseurl }}/assets/img/cutColumn.png)
 
 ### CoxComb Chart
 
